@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#task, #filter {
+    outline: none;
+    padding: 2px;
+    width: 20vw;
+}
+
+#card-adding {
+    text-align: center;
+    width: 50vw;
+}
+
+#button {
+    padding: 2px 15px;
+    margin: 2px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(253, 253, 253);
+    font-weight: 800;
+    border: 1px solid rgb(255, 0, 0);
+    transition: 0.3s;
+}
+
+#button:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    background: rgb(253, 253, 253);
+}
+
+#card-added {
+    border: 1px solid rgb(216, 216, 216);
+    text-align: center;
+    width: 50vw;
+}
+
+#card-added li {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2px;
+}
+.added-cards li {
+    border: 1px solid rgb(216, 216, 216);
+    text-align: center;
+}
+
+.input-field {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+}
+#button {
+    width: 20vh;
+}
+.clear-tasks {
+    color: black;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.clear-tasks:hover {
+    color:rgb(255, 0, 0);
+}
+i:hover {
+    cursor: pointer;
+}
+
+
+
